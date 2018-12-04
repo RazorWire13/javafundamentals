@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         pluralize();
-        flipNHeads();
+        flipNHeads(3);
         clock();
     }
 
@@ -19,8 +19,7 @@ public class Main {
         }
     }
 
-    public static void flipNHeads() {
-        int n = 3;
+    public static void flipNHeads(int n) {
         int heads = 0;
         int flipCount = 0;
         while (heads < n) {

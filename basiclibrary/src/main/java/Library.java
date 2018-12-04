@@ -30,42 +30,58 @@ public class Library {
         return false;
     }
 
-    public static void minMaxInTwoDimArray() {
-        int[][] weeklyMonthTemperatures = {
-                {66, 64, 58, 65, 71, 57, 60},
-                {57, 65, 65, 70, 72, 65, 51},
-                {55, 54, 60, 53, 59, 57, 61},
-                {65, 56, 55, 52, 55, 62, 57}
-        };
-        minMaxInTwoDimArray(weeklyMonthTemperatures);
 
+    public static void calculateAverages(int[][] monthTempsByWeek) {
+        int weeklyTotal = 0;
+        int lowestAvg = 100;
+        int weeklyAvg = 0;
+        int[] lowestArray = new int[monthTempsByWeek[0].length];
+        for (int i = 0; i < monthTempsByWeek.length; i++) {
+            for (int j = 0; j < monthTempsByWeek[i].length; j++) {
+                weeklyTotal += monthTempsByWeek[i][j];
+            }
+            weeklyAvg = weeklyTotal / monthTempsByWeek[i].length;
+            System.out.println("Wk " + (i + 1) + " avg is: " + weeklyTotal / monthTempsByWeek[i].length);
+            weeklyTotal = 0;
+            if ( weeklyAvg < lowestAvg ) {
+                lowestAvg = weeklyAvg;
+                lowestArray = monthTempsByWeek[i];
+            }
+        }
+        System.out.println("The lowest avg temp for a week is: " + lowestAvg);
+        System.out.println("The lowest avg wk array is: " + Arrays.toString(lowestArray));
+        return lowestArray;
+    }
+
+
+
+    public static int[] minMaxTempArray(int[][] monthTempsByWeek) {
         Set<Integer> targetTempSet = new HashSet<Integer>();
-
-        for (int i = 0; i < weeklyMonthTemperatures.length; i++) {
-            for (int j = 0; j < weeklyMonthTemperatures[i].length; j++) {
-                if ( !targetTempSet.contains(weeklyMonthTemperatures[i][j]) ) {
-                    targetTempSet.add(weeklyMonthTemperatures[i][j]);
+        int[] highLow = new int[2];
+        for (int i = 0; i < monthTempsByWeek.length; i++) {
+            for (int j = 0; j < monthTempsByWeek[i].length; j++) {
+                if ( !targetTempSet.contains(monthTempsByWeek[i][j]) ) {
+                    targetTempSet.add(monthTempsByWeek[i][j]);
                 }
             }
-            System.out.println(targetTempSet);
-
-            return targetTempSet;
-
-
         }
         int maxTemp = Collections.max(targetTempSet);
         int minTemp = Collections.min(targetTempSet);
         System.out.println("High: " + maxTemp);
         System.out.println("Low: " + minTemp);
-
+        highLow[0] = maxTemp;
+        highLow[1] = minTemp;
         for (int n = minTemp; n < maxTemp; n++) {
             if ( !targetTempSet.contains(n)) {
-                //  never += ("Never saw temp: " + n + "\n");
                 System.out.println("Never saw temperature: " + n);
             }
         }
-
+        return highLow;
     }
+
+    public static String tally() {
+
+
     }
 
 }
