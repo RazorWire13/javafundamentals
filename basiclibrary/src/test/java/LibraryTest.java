@@ -54,7 +54,7 @@ public class LibraryTest {
     }
 
     @Test
-    public void test testminMaxTempArray() {
+    public void testminMaxTempArray() {
         int[][] monthTempsByWeek = {
                 {66, 64, 58, 65, 71, 57, 60},
                 {57, 65, 65, 70, 72, 65, 51},
@@ -62,7 +62,24 @@ public class LibraryTest {
                 {65, 56, 55, 52, 55, 62, 57}
         };
        int[] highLow = { 72, 51 };
-        assertArrayEquals("minMaxTampArray should return a min and a max temperature for the hashset", highLow, minMaxTempArray())
+        assertArrayEquals("minMaxTampArray should return a min and a max temperature for the hashset", highLow, minMaxTempArray());
+    }
+
+    @Test
+    public void testTally() {
+        List<String> votes = new ArrayList<>();
+        votes.add("Bush");
+        votes.add("Bush");
+        votes.add("Bush");
+        votes.add("Shrub");
+        votes.add("Hedge");
+        votes.add("Shrub");
+        votes.add("Bush");
+        votes.add("Hedge");
+        votes.add("Bush");
+        String winner = "Bush";
+        assertEquals("tally should return a String with a winner", winner, tally(votes));
+
     }
 
 }

@@ -1,3 +1,7 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.*;
 import java.util.Arrays;
 import java.util.HashSet;
@@ -30,8 +34,7 @@ public class Library {
         return false;
     }
 
-
-    public static void calculateAverages(int[][] monthTempsByWeek) {
+    public static int[] calculateAverages(int[][] monthTempsByWeek) {
         int weeklyTotal = 0;
         int lowestAvg = 100;
         int weeklyAvg = 0;
@@ -52,8 +55,6 @@ public class Library {
         System.out.println("The lowest avg wk array is: " + Arrays.toString(lowestArray));
         return lowestArray;
     }
-
-
 
     public static int[] minMaxTempArray(int[][] monthTempsByWeek) {
         Set<Integer> targetTempSet = new HashSet<Integer>();
@@ -79,10 +80,45 @@ public class Library {
         return highLow;
     }
 
-    public static String tally() {
+    public static String tally(ArrayList votes) {
+        HashMap<String, Integer> voteTally = new HashMap<>();
+        for (String vote : votes ) {
+            if (voteTally.containsKey(vote)) {
+                voteTally.put(vote, voteTally.get(vote) + 1);
+            }
+            else {
+                voteTally.put(vote, 1);
+            }
+        }
 
+        int voteTotal = 0;
+        String winner = "";
+        for (String key : voteTally.keySet()) {
+            if (voteTally.get(key) > voteTotal) {
+                voteTotal = voteTally.get(key);
+                winner = key;
+            }
+        }
 
+        System.out.println(votes);
+        System.out.println("The " + winner + " received the most votes!");
+        return winner;
     }
 
+    public static void linter(Path readerFile) {
+        try(BufferedReader reader = Files.newBufferedReader(readerFile)) {
+            int lineNumber = 0
+            String lineText = "";
+            while (lineText != null) {
+                if (!lineText.isEmpty() && !lineText.endsWith("(") && lineText.endsWith())
+                    System.out.println("Line" + lineNumber + " : Missing Semicolon");
+            }
+            lineNumber++
+            lineText = reader.readLine();
+        }
+    }
+    catch(IOException e) {
+        System.out.println(e);
+    }
 }
 
