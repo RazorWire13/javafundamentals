@@ -4,6 +4,7 @@
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
@@ -63,7 +64,7 @@ public class LibraryTest {
                 {55, 54, 60, 53, 59, 57, 61},
                 {65, 56, 55, 52, 55, 62, 57}
         };
-       int[] highLow = { 72, 51 };
+        int[] highLow = { 72, 51 };
         assertArrayEquals("minMaxTampArray should return a min and a max temperature for the hashset", highLow, testminMaxTempArray(monthTempsByWeek));
     }
 
@@ -80,9 +81,8 @@ public class LibraryTest {
         votes.add("Hedge");
         votes.add("Bush");
         String winner = "Bush";
-        assertEquals("tally should return a String with a winner", winner, tally(votes));
+        assertEquals("tally should return a String with a winner", winner, testTally(votes));
 
     }
 
 }
-
