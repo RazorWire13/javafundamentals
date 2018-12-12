@@ -1,10 +1,6 @@
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
-<<<<<<< HEAD
 import java.io.IOException;
-=======
-import java.io.File;
->>>>>>> 0f12528440b0df0e5e493adab063bd5f68ee9e52
 import java.nio.file.Path;
 
 public class Bitmap {
