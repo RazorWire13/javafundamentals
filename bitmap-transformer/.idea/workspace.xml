@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="d9574df6-43a0-427b-9a74-1b398510f361" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../basiclibrary_v2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../basiclibrary_v2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../basiclibrary_v2/src/main/java/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basiclibrary_v2/src/main/java/Library.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../basiclibrary_v2/src/test/java/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basiclibrary_v2/src/test/java/LibraryTest.java" afterDir="false" />
+=======
+    <list default="true" id="ae70fbb7-1b0c-4512-8888-3b328fb9c291" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bitmap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../basiclibrary/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basiclibrary/src/test/java/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basiclibrary/src/test/java/LibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+>>>>>>> 0f12528440b0df0e5e493adab063bd5f68ee9e52
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -27,8 +38,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="180">
               <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-end-line="13" />
+=======
+            <state relative-caret-position="105">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+>>>>>>> 0f12528440b0df0e5e493adab063bd5f68ee9e52
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,8 +55,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Bitmap.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="510">
               <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+=======
+            <state relative-caret-position="195">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+>>>>>>> 0f12528440b0df0e5e493adab063bd5f68ee9e52
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,6 +84,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/Bitmap.java" />
         <option value="$PROJECT_DIR$/src/main/java/App.java" />
       </list>
@@ -73,6 +95,16 @@
     <option name="y" value="23" />
     <option name="width" value="1399" />
     <option name="height" value="877" />
+=======
+        <option value="$PROJECT_DIR$/src/main/java/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Bitmap.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+>>>>>>> 0f12528440b0df0e5e493adab063bd5f68ee9e52
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -80,6 +112,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+>>>>>>> 0f12528440b0df0e5e493adab063bd5f68ee9e52
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -90,6 +127,7 @@
             <path>
               <item name="bitmap-transformer" type="b2602c69:ProjectViewProjectNode" />
               <item name="bitmap-transformer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+<<<<<<< HEAD
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -109,18 +147,26 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 0f12528440b0df0e5e493adab063bd5f68ee9e52
             </path>
             <path>
               <item name="bitmap-transformer" type="b2602c69:ProjectViewProjectNode" />
               <item name="bitmap-transformer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 0f12528440b0df0e5e493adab063bd5f68ee9e52
             </path>
             <path>
               <item name="bitmap-transformer" type="b2602c69:ProjectViewProjectNode" />
               <item name="bitmap-transformer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -128,12 +174,16 @@
               <item name="bitmap-transformer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+=======
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 0f12528440b0df0e5e493adab063bd5f68ee9e52
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -148,6 +198,15 @@
       <recent name="$PROJECT_DIR$/resources" />
     </key>
   </component>
+=======
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543691189922" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+>>>>>>> 0f12528440b0df0e5e493adab063bd5f68ee9e52
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -161,16 +220,26 @@
     </option>
   </component>
   <component name="RunManager">
+<<<<<<< HEAD
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="bitmap-transformer.main" />
+=======
+    <configuration name="Bitmap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bitmap" />
+      <module name="bitmap-transformer" />
+>>>>>>> 0f12528440b0df0e5e493adab063bd5f68ee9e52
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Application.App" />
+=======
+        <item itemvalue="Application.Bitmap" />
+>>>>>>> 0f12528440b0df0e5e493adab063bd5f68ee9e52
       </list>
     </recent_temporary>
   </component>
@@ -179,16 +248,28 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="d9574df6-43a0-427b-9a74-1b398510f361" name="Default Changelist" comment="" />
       <created>1544503978332</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544503978332</updated>
+=======
+      <changelist id="ae70fbb7-1b0c-4512-8888-3b328fb9c291" name="Default Changelist" comment="" />
+      <created>1543599294422</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543599294422</updated>
+>>>>>>> 0f12528440b0df0e5e493adab063bd5f68ee9e52
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+=======
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+>>>>>>> 0f12528440b0df0e5e493adab063bd5f68ee9e52
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -196,16 +277,28 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16309012" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16666667" />
+>>>>>>> 0f12528440b0df0e5e493adab063bd5f68ee9e52
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Build" weight="0.32891566" />
       <window_info anchor="bottom" id="Messages" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+=======
+      <window_info anchor="bottom" id="Build" weight="0.2759036" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.25060242" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+>>>>>>> 0f12528440b0df0e5e493adab063bd5f68ee9e52
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -222,6 +315,7 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -242,6 +336,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-end-line="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+>>>>>>> 0f12528440b0df0e5e493adab063bd5f68ee9e52
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -250,8 +350,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Bitmap.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="510">
           <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+=======
+        <state relative-caret-position="195">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+>>>>>>> 0f12528440b0df0e5e493adab063bd5f68ee9e52
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
